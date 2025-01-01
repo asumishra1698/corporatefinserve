@@ -42,7 +42,7 @@ span {
 }
 
 p a {
-    color: #363636;
+    color: #0c0c0c;
     width: auto;
     display: inline-block
 }
@@ -59,7 +59,7 @@ p {
     line-height: 24px;
     font-size: 16px;
     letter-spacing: .5px;
-    color: #363636;
+    color: #606162;
     font-weight: 400;
     letter-spacing: .5px;
     font-family: "Sora", sans-serif;
@@ -71,7 +71,7 @@ ul li {
 }
 
 a {
-    color: #7f7f7f;
+    color: #606162;
     text-decoration: none;
     outline: 0;
     display: block
@@ -139,6 +139,7 @@ textarea {
     text-align: center;
     padding: 40px;
     border: 0px solid #d4d4d4;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
 }
 
 .register_form input {
@@ -154,7 +155,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     margin: 0
 }
@@ -214,7 +215,9 @@ h5 {
     text-decoration: none;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
-    transition: all .5s ease
+    transition: all .5s ease;
+    width: 70%;
+    border-radius: 10px;
 }
 
 .read_more_1 svg {
@@ -349,34 +352,7 @@ h5 {
     column-gap: 12px;
 }
 
-.whatapp_btn {
-    background: #01e675;
-    width: 50px;
-    height: 50px;
-    color: #fff;
-    position: fixed;
-    right: 15px;
-    bottom: 105px;
-    cursor: pointer;
-    z-index: 999;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .3s ease-in-out;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, .16), 0 3px 10px rgba(0, 0, 0, .16);
-}
-
-.whatapp_btn svg {
-    width: 24px;
-    height: 24px;
-}
-
-.whatapp_btn:focus,
-.whatapp_btn:hover {
-    background: #01e675;
-    color: #fff;
-}
+/* Hexagon Box  Design Start*/
 
 .hexagon_box {
     float: left;
@@ -393,7 +369,7 @@ h5 {
 
 .hexagon {
     position: relative;
-    width: 260px;
+    width: 235px;
     height: 90px;
     background: linear-gradient(90deg, #096537, #001d37);
     float: left;
@@ -470,33 +446,29 @@ h5 {
     top: 24px !important;
 }
 
-@media screen and (max-width: 600px) {
-    .hexagon_box {
-        transform: scale(0.85);
-        margin-bottom: 13px;
-        left: auto;
-        float: none;
-        margin: 0 auto;
-        display: table;
-    }
-}
+/* Hexagon Box  Design End*/
 
 
-.dhp h3, .dhp h2 , .dhp p {
+
+.dhp h3,
+.dhp h2,
+.dhp p {
     color: white;
 }
 
 
 
+/* Packages Design Start */
+
 header h1 {
-    font-size: 2.5rem;
+    font-size: 30px;
     margin-bottom: 10px;
-    color: #333;
+    color: #606162;
 }
 
 header p {
     font-size: 1.2rem;
-    color: #777;
+    color: #606162;
     margin-bottom: 30px;
 }
 
@@ -504,18 +476,22 @@ header p {
 .packages-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    /* 3 columns for larger screens */
     gap: 20px;
-    max-width: 1100px;
     margin: 0 auto;
 }
 
+/* Package Card */
 .package {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 30px;
+    margin-top: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    position: relative;
+    padding-top: 40px;
 }
 
 .package:hover {
@@ -523,66 +499,82 @@ header p {
 }
 
 .package-title {
-    font-size: 1.8rem;
+    font-size: 28px;
     margin-bottom: 10px;
-    color: #333;
+    color: #606162 !important;
 }
 
 .package-description {
-    font-size: 1rem;
-    color: #555;
+    font-size: 16px;
+    color: #606162 !important;
     margin-bottom: 20px;
 }
 
 .package-price {
-    font-size: 1.6rem;
-    color: #27ae60;
+    font-size: 2rem;
+    color: #096537;
     font-weight: bold;
     margin-bottom: 20px;
-}
-
-.package-price .period {
-    font-size: 1rem;
-    color: #777;
 }
 
 .features {
     list-style: none;
     padding-left: 0;
     margin-bottom: 20px;
-    color: #555;
+    color: #606162;
+}
+
+.features h4 {
+    margin-bottom: 20px;
 }
 
 .features li {
-    font-size: 1rem;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    column-gap: 10px;
 }
 
-.btn {
-    background-color: #3498db;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
+footer .features li {
+    font-size: 14px;
 }
 
-.btn:hover {
-    background-color: #2980b9;
+.darkspan {
+    color: #f2d43d;
+
+}
+
+.package .read_more_1 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.featured .read_more_1 {
+    background: #f1d23e;
+    color: #606162;
+}
+
+/* Recommended Tag */
+.recommended-tag {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-110%);
+    background: linear-gradient(45deg, #debb57, #f2d43d);
+    color: #606162;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    z-index: 1;
 }
 
 /* Featured Package */
 .package.featured {
-    border: 2px solid #3498db;
+    border: 2px solid #f0d13f;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    background: rgb(229 240 255);
 }
 
-.package.featured .btn {
-    background-color: #e67e22;
-}
 
-.package.featured .btn:hover {
-    background-color: #d35400;
-}
+/* Packages Design End */

@@ -1,14 +1,14 @@
-<section class="cta pt-5 pb-5 darkbg">
+<section class="cta pt-5 pb-5 darkbg dhp">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-sm-8">
-                <div class="pb-3 dhp">
-                    <h2>We are Proud of Our Works</h2>
+                <div class="pb-3 ">
+                    <h2>We are Proud of <span class="darkspan">Our Works</span></h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eligendi.</p>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4 col-12" data-aos="fade-right" data-aos-duration="1000">
-                        <div class="m-2 p-3 shadow dhp">
+                        <div class="m-2 p-3 shadow ">
                             <img src="images/Companyformation.svg" alt="" srcset="" max-width="100px">
                             <h3>20,000+</h3>
                             <p>
@@ -17,7 +17,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-12" data-aos="fade-right" data-aos-duration="1000">
-                        <div class="m-2 p-3 shadow dhp">
+                        <div class="m-2 p-3 shadow ">
                             <img src="images/Companyformation.svg" alt="" srcset="" max-width="100px">
                             <h3>51,980+</h3>
                             <p>
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-12" data-aos="fade-right" data-aos-duration="1000">
-                        <div class="m-2 p-3 shadow dhp">
+                        <div class="m-2 p-3 shadow ">
                             <img src="images/Companyformation.svg" alt="" srcset="" max-width="100px">
                             <h3>4.8+/5</h3>
                             <p>
@@ -157,22 +157,24 @@
                     <h6 class="text-uppercase fw-bold mb-4 ">
                         Start A Business
                     </h6>
-                    <p>
-                        <a href="partnership-firm-registration.php" class="text-dark">Partnership Firm Registration</a>
-                    </p>
-                    <p>
-                        <a href="nidhi-firm-registration.php" class="text-dark">Nidhi Firm Registration</a>
-                    </p>
-                    <p>
-                        <a href="limited-liability-registration.php" class="text-dark">Limited Liability
+                    <ul class="features">
+                        <li>
+                            <a href="partnership-firm-registration.php" class="text-dark">Partnership Firm Registration</a>
+                        </li>
+                        <li>
+                            <a href="nidhi-firm-registration.php" class="text-dark">Nidhi Firm Registration</a>
+                        </li>
+                        <li>
+                            <a href="limited-liability-registration.php" class="text-dark">Limited Liability
                             Registration</a>
-                    </p>
-                    <p>
-                        <a href="epf-uan-registration.php" class="text-dark">EPF UAN Registration</a>
-                    </p>
-                    <p>
-                        <a href="professional-tax-registration.php" class="text-dark">Professional Tax Registration</a>
-                    </p>
+                        </li>
+                        <li>
+                            <a href="epf-uan-registration.php" class="text-dark">EPF UAN Registration</a>
+                        </li>
+                        <li>
+                            <a href="professional-tax-registration.php" class="text-dark">Professional Tax Registration</a>
+                        </li>
+                    </ul>
                 </div>
                 <!-- Grid column -->
                 <!-- Grid column -->
@@ -181,24 +183,26 @@
                     <h6 class="text-uppercase fw-bold mb-4 text-dark">
                         Useful links
                     </h6>
-                    <p>
-                        <a href="roc-compliance-of-private-limited.php" class="text-dark">ROC Compliance of Private
+                    <ul class="features">
+                        <li>
+                            <a href="roc-compliance-of-private-limited.php" class="text-dark">ROC Compliance of Private
                             Limited</a>
-                    </p>
-                    <p>
-                        <a href="roc-compliance-of-llp.php" class="text-dark">ROC compliance of LLP</a>
-                    </p>
-                    <p>
-                        <a href="bookkeeping-and-accounting-services.php" class="text-dark">Bookkeeping and Accounting
+                        </li>
+                        <li>
+                            <a href="roc-compliance-of-llp.php" class="text-dark">ROC compliance of LLP</a>
+                        </li>
+                        <li>
+                            <a href="bookkeeping-and-accounting-services.php" class="text-dark">Bookkeeping and Accounting
                             Services</a>
-                    </p>
+                        </li>
 
-                    <p>
-                        <a href="gst-registration.php" class="text-dark">GST Registration</a>
-                    </p>
-                    <p>
-                        <a href="gst-return.php" class="text-dark">GST Return</a>
-                    </p>
+                        <li>
+                            <a href="gst-registration.php" class="text-dark">GST Registration</a>
+                        </li>
+                        <li>
+                            <a href="gst-return.php" class="text-dark">GST Return</a>
+                        </li>
+                    </ul>
                 </div>
                 <!-- Grid column -->
                 <!-- Grid column -->
@@ -300,5 +304,14 @@
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Wait for the DOM to fully load
+    $(document).ready(function() {
+      // Open the modal after 15 seconds
+      setTimeout(function() {
+        $('#staticBackdrop').modal('show');
+      }, 5000); // 15 seconds = 15000 milliseconds
+    });
+  </script>
 </body>
 </html>

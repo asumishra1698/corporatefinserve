@@ -9,50 +9,116 @@
 @media (max-width:980px) {}
 
 @media (max-width:768px) {
+    .features li{
+        font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    }
+    p{
+        font-size: 14px;
+    }
+    .package-description{
+        font-size: 14px;
+    }
     .navbar {
         position: absolute;
         z-index: 9;
         background: white;
         width: 100%;
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         padding: 10px;
         border-radius: 50%;
     }
-    .navbar-toggler:focus{
+
+    .navbar-toggler:focus {
         box-shadow: none;
     }
 
     .homebanner,
     h1 {
-        font-size: 25px;
+        font-size: 30px;
         font-weight: 700;
         text-align: center;
-        margin-top:5.5rem;
+        margin-top: 5.5rem;
+        margin-bottom: 2.5rem;
     }
-    h2 {
-        font-size: 26px;        
-    }
-    
-    h3 {
-        font-size: 24px;       
-    }
-    h4 {
-    font-size: 18px;
-    }
-    
 
-     .topbar {
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .topbar {
         display: flex;
         justify-content: space-between;
-        flex-wrap: nowrap;        
+        flex-wrap: nowrap;
     }
 
     .topbar .col-sm-6 {
         flex-shrink: 1;
-    } 
+    }
+
+    .packages-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columns for tablets */
+    }
 }
 
-@media (max-width:650px) {}
+@media (max-width:650px) {
+    .hexagon_box {
+        transform: scale(0.85);
+        margin-bottom: 13px;
+        left: auto;
+        float: none;
+        margin: 0 auto;
+        display: table;
+    }
+}
 
-@media (max-width:480px) {}
+@media (max-width:480px) {
+    .packages-grid {
+        grid-template-columns: 1fr;
+        /* 1 column for mobile */
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .package {
+        padding: 20px;
+        margin: 5px;
+        /* Reduce padding for smaller screens */
+    }
+
+    .package-title {
+        font-size: 1.5rem;
+    }
+
+    .package-price {
+        font-size: 1.4rem;
+    }
+
+    .features li {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+}
