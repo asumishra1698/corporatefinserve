@@ -379,7 +379,7 @@ include 'header.php' ?>
     </section>
 <section>
     <div class="row">
-    <div class="container">       
+    <div class="container">    
 
         <div class="packages-grid">
             <!-- Basic Plan -->
