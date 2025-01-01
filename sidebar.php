@@ -25,8 +25,8 @@
             </div>
         </div>
     </div>
-    <div class="row pt-4 pb-2 m-1 m-md-2">
-        <div class="col-md-12 col-10 offset-md-0 offset-1 mt-3">
+    <div class="row pt-4 pb-2">
+        <div class="col-md-12 col-12 offset-md-0 mt-3">
             <div class="d-flex p-3 darkbg justify-content-center align-items-center rounded-3 shadow">
                 <div>
                     <p class="text-white">4.9/5
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-12 col-10 offset-md-0 offset-1 mt-3">
+        <div class="col-md-12 col-12 offset-md-0 mt-3">
             <div class="d-flex p-3 darkbg justify-content-center align-items-center rounded-3 shadow">
                 <div>
                     <p class="text-white">4.7/5
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-12 col-10 offset-md-0 offset-1 mt-3">
+        <div class="col-md-12 col-12 offset-md-0 mt-3">
             <div class="d-flex p-3 darkbg justify-content-center align-items-center rounded-3 shadow">
                 <div>
                     <p class="text-white">4.8/5 reviews on</p>

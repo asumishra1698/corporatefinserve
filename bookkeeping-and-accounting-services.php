@@ -262,7 +262,7 @@ include 'header.php' ?>
     </section>
 
 
-    <section class="bg-1 pt-5 pb-5 darkbg">
+    <section class="bg-1 pt-5 pb-5 darkbg flexmobile">
         <div class="container">
             <div class="row text-center">
                 <div class="col-sm-12 dhp">
@@ -333,7 +333,7 @@ include 'header.php' ?>
             <div class="row">
                 <div class="col-md-6">
                     <div class="accordion" id="accordionExample">
-                        <div class="accordion-item shadow m-4 rounded-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="accordion-item shadow m-2 rounded-3" data-aos="fade-up" data-aos-duration="1000">
                             <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -346,7 +346,7 @@ include 'header.php' ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item shadow m-4 rounded-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="accordion-item shadow m-2 rounded-3" data-aos="fade-up" data-aos-duration="1000">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -359,7 +359,7 @@ include 'header.php' ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item shadow m-4 rounded-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="accordion-item shadow m-2 rounded-3" data-aos="fade-up" data-aos-duration="1000">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -372,7 +372,7 @@ include 'header.php' ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item shadow m-4 rounded-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="accordion-item shadow m-2 rounded-3" data-aos="fade-up" data-aos-duration="1000">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
@@ -385,7 +385,7 @@ include 'header.php' ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item shadow m-4 rounded-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="accordion-item shadow m-2 rounded-3" data-aos="fade-up" data-aos-duration="1000">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
@@ -402,7 +402,7 @@ include 'header.php' ?>
                 </div>
                 <div class="col-md-6">
                     <div class="accordion" id="accordionExample2">
-                        <div class="accordion-item shadow m-4 rounded-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="accordion-item shadow m-2 rounded-3" data-aos="fade-up" data-aos-duration="1000">
                             <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
@@ -415,7 +415,7 @@ include 'header.php' ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item shadow m-4 rounded-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="accordion-item shadow m-2 rounded-3" data-aos="fade-up" data-aos-duration="1000">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
@@ -438,7 +438,7 @@ include 'header.php' ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item shadow m-4 rounded-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="accordion-item shadow m-2 rounded-3" data-aos="fade-up" data-aos-duration="1000">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
@@ -451,7 +451,7 @@ include 'header.php' ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item shadow m-4 rounded-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="accordion-item shadow m-2 rounded-3" data-aos="fade-up" data-aos-duration="1000">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
@@ -464,7 +464,7 @@ include 'header.php' ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item shadow m-4 rounded-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="accordion-item shadow m-2 rounded-3" data-aos="fade-up" data-aos-duration="1000">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
