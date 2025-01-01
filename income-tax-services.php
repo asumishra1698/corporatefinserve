@@ -377,7 +377,12 @@ include 'header.php' ?>
             </div>
         </div>
     </section>
-<section>
+<section class="pt-5 pb-5 bg-1">
+<div class="row">
+                <div class="col-sm-12 pt-3 pb-3 text-center">
+                    <h3>Frequently Asked <span>Questions</span></h3>
+                </div>
+            </div>
     <div class="row">
     <div class="container"> 
         <div class="packages-grid">
