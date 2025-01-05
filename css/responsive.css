@@ -14,6 +14,9 @@
     font-weight: 400;
     text-align: left;
     }
+    .dhp{
+        text-align: center;
+    }
     p{
         font-size: 14px;
     }
@@ -41,7 +44,7 @@
         font-size: 30px;
         font-weight: 700;
         text-align: center;
-        margin-top: 5.5rem;        
+        margin-top: 3.5rem;        
     }
 
     h2 {
@@ -78,11 +81,11 @@
 
 @media (max-width:650px) {
     .hexagon_box {
-        transform: scale(0.85);
+        transform: scale(1);
         margin-bottom: 13px;
         left: auto;
         float: none;
-        margin: 0 auto;
+        margin: 10px auto;
         display: table;
     }
 }

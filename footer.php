@@ -134,7 +134,7 @@
 <!-- Footer -->
 <footer class="text-lg-start darkbg">
     <!-- Section: Links  -->
-    <section class="bg-1 text-dark">
+    <section class="bg-1 text-dark p-3">
         <div class="container=fluid text-md-start pt-5">
             <!-- Grid row -->
             <div class="row mt-3">
@@ -304,14 +304,7 @@
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-    // Wait for the DOM to fully load
-    $(document).ready(function() {
-      // Open the modal after 15 seconds
-      setTimeout(function() {
-        $('#staticBackdrop').modal('show');
-      }, 5000); // 15 seconds = 15000 milliseconds
-    });
-  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>
