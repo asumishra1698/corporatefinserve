@@ -7,7 +7,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eligendi.</p>
                 </div>
                 <div class="row text-center">
-                    <div class="col-md-4 col-12" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="col-md-4 col-12" >
                         <div class="m-2 p-3 shadow ">
                             <img src="images/Companyformation.svg" alt="" srcset="" max-width="100px">
                             <h3>20,000+</h3>
@@ -16,7 +16,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-12" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="col-md-4 col-12" >
                         <div class="m-2 p-3 shadow ">
                             <img src="images/Companyformation.svg" alt="" srcset="" max-width="100px">
                             <h3>51,980+</h3>
@@ -25,7 +25,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-12" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="col-md-4 col-12" >
                         <div class="m-2 p-3 shadow ">
                             <img src="images/Companyformation.svg" alt="" srcset="" max-width="100px">
                             <h3>4.8+/5</h3>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-sm-4" >
                 <div class="register_form shadow-lg">
                     <h4>Get Instant Quote Free</h4>
                     <p class="text-primary">10.5k+ Happy Reviews</p>
