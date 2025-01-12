@@ -131,6 +131,8 @@ include 'header.php' ?>
                         <li><img src="images/icons/ic-blue-round-tick.svg" alt="">DIN for directors</li>
                     </ul>
                 </div>
+
+                
             </div>
         </div>
     </section>
@@ -492,4 +494,15 @@ include 'header.php' ?>
         </div>
     </section>
 
+
+    <section class="pt-5 pb-5 bg-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 pt-3 pb-3 text-center">
+                <h3>Choose The Right Plan <span>For Your Business</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, dolorem? Odit doloribus et nisi similique nihil sed sunt, repudiandae incidunt veritatis doloremque sit ipsam totam aperiam modi reiciendis facilis impedit.</p>
+            </div>
+        </div>
+    </div>
+   
 <?php include 'footer.php' ?>
