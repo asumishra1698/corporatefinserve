@@ -44,6 +44,124 @@ include 'header.php' ?>
         </div>
     </section>
 
+    <section class="services-slider-section">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-description">Tailored Solutions to Empower Your Business Growth</p>
+        <div class="slider-container">
+            <div class="slider-track">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none">
+                        <defs>
+                            <linearGradient id="briefcaseGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#096537" />
+                                <stop offset="100%" stop-color="#07482a" />
+                            </linearGradient>
+                            <linearGradient id="gearGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#ffffff" />
+                                <stop offset="100%" stop-color="#d4f5d0" />
+                            </linearGradient>
+                            <linearGradient id="shadowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="rgba(0, 0, 0, 0.2)" />
+                                <stop offset="100%" stop-color="rgba(0, 0, 0, 0)" />
+                            </linearGradient>
+                        </defs>
+                        <!-- Briefcase Body -->
+                        <rect x="3" y="7" width="18" height="10" rx="2" fill="url(#briefcaseGradient)" />
+                        <rect x="3" y="7" width="18" height="10" rx="2" stroke="#07482a" stroke-width="1.5" />
+                        <rect x="8" y="4" width="8" height="3" rx="1.5" fill="#096537" />
+                        <circle cx="12" cy="14" r="3" fill="url(#gearGradient)" />
+                        <path d="M12 10.5v1M12 16.5v1M14.95 12.05l-.7.7M9.75 15.25l-.7.7M14.95 15.95l-.7-.7M9.75 12.75l-.7-.7M10.5 12h1.5M10.5 15h1.5" stroke="#096537" stroke-width="1.5" stroke-linecap="round" />
+                        <ellipse cx="12" cy="20" rx="8" ry="2" fill="url(#shadowGradient)" />
+                    </svg>
+                    <h3 class="service-title">Business Setup</h3>
+                    <p class="service-description"> Start your dream venture with our seamless registration and setup services. </p>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none">
+                        <defs>
+                            <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#096537" />
+                                <stop offset="100%" stop-color="#07482a" />
+                            </linearGradient>
+                            <linearGradient id="checkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#ffffff" />
+                                <stop offset="100%" stop-color="#d4f5d0" />
+                            </linearGradient>
+                            <linearGradient id="shadowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="rgba(0, 0, 0, 0.2)" />
+                                <stop offset="100%" stop-color="rgba(0, 0, 0, 0)" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M12 2l7 4v6c0 5-4.03 9-7 10-2.97-1-7-5-7-10V6l7-4z" fill="url(#shieldGradient)" />
+                        <path d="M12 2l7 4v6c0 5-4.03 9-7 10-2.97-1-7-5-7-10V6l7-4z" fill="none" stroke="#07482a" stroke-width="1.5" />
+                        <path d="M9 12l2 2 4-4" fill="none" stroke="url(#checkGradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <ellipse cx="12" cy="22" rx="7" ry="2" fill="url(#shadowGradient)" />
+                    </svg>
+                    <h3 class="service-title">Compliance Management</h3>
+                    <p class="service-description"> Stay on top of legal and regulatory requirements with our expert support. </p>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none">
+                        <defs>
+                            <linearGradient id="docGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#096537" />
+                                <stop offset="100%" stop-color="#07482a" />
+                            </linearGradient>
+                            <linearGradient id="calcGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#ffffff" />
+                                <stop offset="100%" stop-color="#d4f5d0" />
+                            </linearGradient>
+                            <linearGradient id="shadowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="rgba(0, 0, 0, 0.2)" />
+                                <stop offset="100%" stop-color="rgba(0, 0, 0, 0)" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="4" y="3" width="16" height="18" rx="2" fill="url(#docGradient)" />
+                        <rect x="4" y="3" width="16" height="18" rx="2" stroke="#07482a" stroke-width="1.5" />
+                        <text x="9" y="12" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ffffff">$</text>
+                        <rect x="12" y="14" width="8" height="6" rx="1" fill="url(#calcGradient)" />
+                        <circle cx="14" cy="15.5" r="0.7" fill="#096537" />
+                        <circle cx="16" cy="15.5" r="0.7" fill="#096537" />
+                        <circle cx="14" cy="17.5" r="0.7" fill="#096537" />
+                        <circle cx="16" cy="17.5" r="0.7" fill="#096537" />
+                        <ellipse cx="12" cy="22" rx="8" ry="2" fill="url(#shadowGradient)" />
+                    </svg>
+                    <h3 class="service-title">Tax Solutions</h3>
+                    <p class="service-description"> Effortlessly manage tax filings and advisory with our end-to-end services. </p>
+                </div>
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none">
+                        <defs>
+                            <linearGradient id="circleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#096537" />
+                                <stop offset="100%" stop-color="#07482a" />
+                            </linearGradient>
+                            <linearGradient id="handGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#d4f5d0" />
+                                <stop offset="100%" stop-color="#ffffff" />
+                            </linearGradient>
+                            <linearGradient id="shadowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="rgba(0, 0, 0, 0.2)" />
+                                <stop offset="100%" stop-color="rgba(0, 0, 0, 0)" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="12" cy="12" r="10" fill="url(#circleGradient)" />
+                        <text x="11" y="12" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ffffff" text-anchor="middle" dy=".3em">$</text>
+                        <path d="M8 14c0 1 1 1.5 2 1.5h4.5c.7 0 1.5-.5 1.5-1.5s-.8-1.5-1.5-1.5H11l-2.5-.5c-.5-.1-1 .5-1 1z" fill="url(#handGradient)" />
+                        <ellipse cx="12" cy="20" rx="8" ry="2" fill="url(#shadowGradient)" />
+                    </svg>
+                    <h3 class="service-title">Funding Assistance</h3>
+                    <p class="service-description"> Secure the right funding to scale your business with expert guidance. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="pt-5 pb-5 bg-1">
         <div class="container">
             <div class="row">
@@ -212,7 +330,6 @@ include 'header.php' ?>
         </div>
     </section>
 
-
     <section class="pt-5 pb-5">
         <div class="container">
             <div class="row">
@@ -262,7 +379,6 @@ include 'header.php' ?>
             </div>
         </div>
     </section>
-
 
     <section class="bg-1 pt-5 pb-5 darkbg flexmobile">
         <div class="container">
@@ -321,9 +437,7 @@ include 'header.php' ?>
                 </div>
             </div>
         </div>
-    </section>   
-
-    
+    </section>     
 
     <section class="pt-5 pb-5 bg-1">
         <div class="container">
@@ -492,17 +606,6 @@ include 'header.php' ?>
                 </div>
             </div>
         </div>
-    </section>
-
-
-    <section class="pt-5 pb-5 bg-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 pt-3 pb-3 text-center">
-                <h3>Choose The Right Plan <span>For Your Business</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, dolorem? Odit doloribus et nisi similique nihil sed sunt, repudiandae incidunt veritatis doloremque sit ipsam totam aperiam modi reiciendis facilis impedit.</p>
-            </div>
-        </div>
-    </div>
+    </section> 
    
 <?php include 'footer.php' ?>
