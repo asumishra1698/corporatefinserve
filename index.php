@@ -15,31 +15,8 @@ include 'header.php' ?>
                         <li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Get expert assistance for Indian company registration, including SPICe-INC-32, eMoA-INC-33, and eAOA-INC-34 filings on MCA, along with DSC provisions, all completed in one go for your company.</li>
                         <li><img src="images/icons/ic-blue-round-tick.svg" alt="">Expert support with Instant Filing, Name Approval, Digital Signatures, Current Account Opening, and government fee details for startups</li>                                             
                     </ul>                    
-                </div>
-                <div class="col-sm-4" data-aos="fade-left">
-                <div class="register_form">
-                <h3>Get Instant Quote Free</h3>
-                <p class="text-primary">10.5k+ Happy Reviews</p>
-                <form action="mail.php" method="post" name="google-sheet" novalidate="">
-                    <input name="service.id" type="hidden" value="266">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <input id="name" name="name" placeholder="Your Name" required="" type="text">
-                            <input id="mobile" name="mobile" placeholder="Your Phone Number" required="" type="tel">
-                            <input id="form_email" name="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" placeholder="Your Email Address" required="" type="email">
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="g-recaptcha" data-theme="light" style="margin-left: 18%;transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;" data-sitekey="6LeGMnokAAAAAOM4bmA6v5Rm70gX5eJJqzvTSzQW"></div>
-
-                        </div>
-                        <div class="col-lg-12 text-center mt-4">
-                            <button class="read_more_1 bg_btn_1" title="Get A Qaute" type="submit">Get A Qaute
-                                <span></span><span></span><span></span><span></span></button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-                </div>
+                </div>                
+                <?php  include 'form.php' ?>               
             </div>
         </div>
     </section>
@@ -49,7 +26,7 @@ include 'header.php' ?>
             <div class="row">
             <div class="pb-2 text-center">
                     <h2><span>Our Services</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eligendi.</p>
+                    <p>CorporateFinserv offers incorporation, government filings, accounting, documentation, and tax services. We streamline legal and professional processes for businesses and individuals, providing efficient, technology-driven solutions tailored to your specific needs.</p>
                 </div>
             </div>
             <div class="row text-center">
@@ -182,7 +159,7 @@ include 'header.php' ?>
             <div class="row">
                 <div class="col-sm-12 pt-3 pb-3 text-center">
                     <h3>Choose The Right Plan <span>For Your Business</span></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, dolorem? Odit doloribus et nisi similique nihil sed sunt, repudiandae incidunt veritatis doloremque sit ipsam totam aperiam modi reiciendis facilis impedit.</p>
+                    <p>Choose the right plan tailored to your business needs. From startups to established enterprises, we offer flexible, cost-effective solutions to streamline operations and ensure compliance with ease.</p>
                 </div>
             </div>
         </div>

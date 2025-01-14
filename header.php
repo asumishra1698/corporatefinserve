@@ -97,7 +97,7 @@
             </div>
         </div>
     </div>
-    <section>
+    <section id="navbarSection">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand logo" href="index.php"><img src="images/taxlogo.png" alt="taxlogo"
