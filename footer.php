@@ -254,10 +254,10 @@
     <!-- Copyright -->
     <div class="row text-center p-4">
         <div class="d-flex pb-3 justify-content-center">
-            <a href="" class="me-4">
+            <a href="https://www.facebook.com/Corporatefinserv/" class="me-4">
                 <img src="./images/icons/facebook.svg" alt="" srcset="">
             </a>
-            <a href="" class="me-4">
+            <a href="https://www.instagram.com/CorporateFinserv" class="me-4">
                 <img src="./images/icons/instagram.svg" alt="" srcset="">
             </a>
             <a href="" class="me-4">

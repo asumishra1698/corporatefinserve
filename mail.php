@@ -40,7 +40,7 @@ try {
 } catch (Exception $e) {
     echo '<script language="javascript">';
     echo 'alert("Request could not be sent. Mailer Error: Please fill the required fields.");';
-    echo 'window.location.href="https://api.whatsapp.com/send/?phone=919999241024&text=+Im+interested+in+consulatation+and+company+registration+I+have+a+few+question.+Can+you+help";';
+    echo 'window.location.href="index.php";';
     echo '</script>';
     echo "";
 }
