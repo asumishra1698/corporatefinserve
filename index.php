@@ -168,7 +168,8 @@ include 'header.php' ?>
                 <!-- Basic Plan -->
                 <div class="package">
                     <h2 class="package-title">Business Setup</h2>
-                    <p class="package-description">For enterprises needing full support and advanced features.</p>
+                    <p class="package-description">Launch your business effortlessly! We handle registration, licensing, and compliance for smooth growth.</p>
+                    <p class="small-text">Starting From</p>
                     <div class="package-price">
                         <span class="price">₹999</span>
                     </div>
@@ -179,22 +180,20 @@ include 'header.php' ?>
                         </a>
                     </div>
                     <ul class="features">
-                        <h4>What you'll get</h4>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Expert assisted process</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Your company name is reserved in just 2 - 4 days</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">DSC in just 4 - 7 days</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">SPICe+ form filing in 14 days*</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">Incorporation Certificate in 14 - 21 days</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">Company PAN+TAN</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">DIN for directors</li>
+                        <h4>Services</h4>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Private Limited company</li></a>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Limited Liability Partnership</li></a>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt="">One Person company</li></a>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Partnership Firm</li></a>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Sole Proprietorship</li></a>                        
                     </ul>
                 </div>
 
                 <!-- Standard Plan (Featured) -->
-                <div class="package featured ">
-                    <div class="recommended-tag"><img src="https://assets.vakilsearch.com/Star+1.svg" alt="" srcset="">Recommended</div>
-                    <h2 class="package-title">Standard</h2>
-                    <p class="package-description">For enterprises needing full support and advanced features.</p>
+                <div class="package featured ">                    
+                    <h2 class="package-title">File GST</h2>
+                    <p class="package-description">Easily file your GST with expert support, ensuring accuracy, compliance, and timely submissions for your business.</p>
+                    <p class="small-text">Starting From</p>
                     <div class="package-price">
                         <span class="price">₹1,499</span>
                     </div>
@@ -205,22 +204,21 @@ include 'header.php' ?>
                         </a>
                     </div>
                     <ul class="features">
-                        <h4>What you'll get</h4>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Expert assisted process</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Your company name is reserved in just 2 - 4 days</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">DSC in just 4 - 7 days</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">SPICe+ form filing in 14 days*</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">Incorporation Certificate in 14 - 21 days</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">Company PAN+TAN</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">DIN for directors</li>
+                        <h4>Services</h4>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> GST Registration</li></a>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> GST Filing</li></a>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> GST Cancellation and Revocation</li></a>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Reply to GST Notice</li></a>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Indirect Tax</li></a>                        
                     </ul>
 
                 </div>
 
                 <!-- Premium Plan -->
                 <div class="package">
-                    <h2 class="package-title">Elite</h2>
-                    <p class="package-description">For enterprises needing full support and advanced features.</p>
+                    <h2 class="package-title">Licenses</h2>
+                    <p class="package-description">Get your business licenses quickly and easily, ensuring full compliance and smooth operations.</p>
+                    <p class="small-text">Starting From</p>
                     <div class="package-price">
                         <span class="price">₹3,499</span>
                     </div>
@@ -231,14 +229,12 @@ include 'header.php' ?>
                         </a>
                     </div>
                     <ul class="features">
-                        <h4>What you'll get</h4>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Expert assisted process</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Your company name is reserved in just 2 - 4 days</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">DSC in just 4 - 7 days</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">SPICe+ form filing in 14 days*</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">Incorporation Certificate in 14 - 21 days</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">Company PAN+TAN</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">DIN for directors</li>
+                        <h4>Services</h4>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> ISO Registration</li></a>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> FSSAI Registration</li></a>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> IEC Registration</li></a>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> LIQUOR License Registration</li></a>
+                        <a href="index.php"><li><img src="images/icons/ic-blue-round-tick.svg" alt=""> PSARA Registration</li></a>                        
                     </ul>
                 </div>
 
@@ -328,14 +324,14 @@ include 'header.php' ?>
                 <div class="col-sm-8 p-4">
                     <div class="row pb-5" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-12">
-                            <h2>Income Tax Services?</h2>
-                            <p class="pt-2">Whether you are an individual, small business, or large corporation, our experienced team is equipped to handle all aspects of income tax, providing tailored solutions to meet your specific needs.</p>
-                            <p class="pt-2">Whether you are an individual, small business, or large corporation, our experienced team is equipped to handle all aspects of income tax, providing tailored solutions to meet your specific needs.</p>
-                            <p class="pt-2">Whether you are an individual, small business, or large corporation, our experienced team is equipped to handle all aspects of income tax, providing tailored solutions to meet your specific needs.</p>
+                            <h2>About Corporatefinserv</h2>
+                            <p class="pt-2">At CorporateFinserv, we are a technology-driven platform dedicated to simplifying the legal and professional needs of startups, established businesses, and individuals. Our comprehensive suite of services is designed to empower our clients with efficient, reliable, and seamless solutions.</p>
+                            <p class="pt-2">For businesses, we offer a range of services, including incorporation, government registrations and filings, accounting, documentation, and annual compliances. We ensure that businesses can focus on their growth while we handle the intricacies of legal and professional requirements.</p>
+                            <p class="pt-2">For individuals, we extend our expertise to cover essential services such as property agreements and tax filings. We believe that accessing professional and legal assistance should be as simple as a click, and we strive to make that a reality.</p>
                         </div>
                     </div>
                     <div class="row pb-5 align-items-center" data-aos="fade-up" data-aos-duration="1000">
-                        <h3>Centralised Panel for Getting all Kind of Services</h3>
+                        <h3>Other Services</h3>
                         <div class="col-sm-6 col-md-6">
                             <ul class="list pt-2">
                                 <li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Book Keeping & General Accounting
@@ -361,9 +357,8 @@ include 'header.php' ?>
                     </div>
                     <div class="pb-5" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-12">
-                            <h3>Bookkeeping and Accounting Services</h3>
-                            <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos soluta itaque pariatur officia. Facilis tempore dolore ea cum eum provident odio, porro totam animi voluptates! Optio possimus nemo dolorem officiis fugiat ipsum
-                                vero nisi, voluptatem dignissimos assumenda temporibus, veritatis laboriosam.</p>
+                            <h3>Contact Us</h3>
+                            <p class="pb-2">If you have any questions or would like to discuss our services, feel free to reach out to us directly. For immediate assistance, simply send us a message on WhatsApp at +91 9999241024, and our team will get back to you as soon as possible. We look forward to helping you navigate your financial journey with ease and expertise.</p>
                         </div>
                     </div>
                 </div>

@@ -303,6 +303,12 @@
         </div>
     </div>
 </div>
+<a href="https://wa.me/919999241024?text=Hi" target="_blank" title="Chat" class="phone-chat"><img src="https://cdn.shopify.com/s/files/1/0906/5860/3317/files/whatapp.png?v=1727027288"></a>    
+<style>  
+
+   
+	
+</style>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="http://localhost/corporatefinserve/js/main.js"></script>
