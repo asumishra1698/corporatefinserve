@@ -11,9 +11,9 @@ include 'header.php' ?>
                     <p class="pt-2 pb-4">At Corporatefinserv, we provide expert Income Tax Services designed to ensure your tax compliance is seamless while optimizing your tax savings.
                     </p>
                     <ul class="features">                        
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Private Limited Company Registration Starting at just ₹999 + Govt Fee</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Get expert assistance for Indian company registration, including SPICe-INC-32, eMoA-INC-33, and eAOA-INC-34 filings on MCA, along with DSC provisions, all completed in one go for your company.</li>
-                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">Expert support with Instant Filing, Name Approval, Digital Signatures, Current Account Opening, and government fee details for startups</li>                                             
+                        <li><img src="images/icons/ic-blue-round-tick.svg" alt=""> Over 50 Verified CA, CS, and Legal Experts Ready to Streamline Your Business Operations.</li>
+                        <li><img src="images/icons/ic-blue-round-tick.svg" alt=""> We prioritize discretion, professionalism, timely delivery, quick turnaround, and consistently provide accurate, reliable results for your needs.</li>
+                        <li><img src="images/icons/ic-blue-round-tick.svg" alt="">Leading the industry for over ten years, we provide businesses with cost-effective solutions and expert support to achieve their objectives.</li>                                             
                     </ul>                    
                 </div>                
                 <?php  include 'form.php' ?>               
@@ -91,31 +91,32 @@ include 'header.php' ?>
                 </div>
                 <div class="col-md-3 col-12" >
                     <div class="m-2 p-2 shadow ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height=100" viewBox="0 0 24 24" fill="none">
-                            <defs>
-                                <linearGradient id="docGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" stop-color="#096537" />
-                                    <stop offset="100%" stop-color="#07482a" />
-                                </linearGradient>
-                                <linearGradient id="calcGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" stop-color="#ffffff" />
-                                    <stop offset="100%" stop-color="#d4f5d0" />
-                                </linearGradient>
-                                <linearGradient id="shadowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                    <stop offset="0%" stop-color="rgba(0, 0, 0, 0.2)" />
-                                    <stop offset="100%" stop-color="rgba(0, 0, 0, 0)" />
-                                </linearGradient>
-                            </defs>
-                            <rect x="4" y="3" width="16" height="18" rx="2" fill="url(#docGradient)" />
-                            <rect x="4" y="3" width="16" height="18" rx="2" stroke="#07482a" stroke-width="1.5" />
-                            <text x="9" y="12" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ffffff">$</text>
-                            <rect x="12" y="14" width="8" height="6" rx="1" fill="url(#calcGradient)" />
-                            <circle cx="14" cy="15.5" r="0.7" fill="#096537" />
-                            <circle cx="16" cy="15.5" r="0.7" fill="#096537" />
-                            <circle cx="14" cy="17.5" r="0.7" fill="#096537" />
-                            <circle cx="16" cy="17.5" r="0.7" fill="#096537" />
-                            <ellipse cx="12" cy="22" rx="8" ry="2" fill="url(#shadowGradient)" />
-                        </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none">
+                        <defs>
+                            <linearGradient id="docGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#096537" />
+                                <stop offset="100%" stop-color="#07482a" />
+                            </linearGradient>
+                            <linearGradient id="calcGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#ffffff" />
+                                <stop offset="100%" stop-color="#d4f5d0" />
+                            </linearGradient>
+                            <linearGradient id="shadowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="rgba(0, 0, 0, 0.2)" />
+                                <stop offset="100%" stop-color="rgba(0, 0, 0, 0)" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="4" y="3" width="16" height="18" rx="2" fill="url(#docGradient)" />
+                        <rect x="4" y="3" width="16" height="18" rx="2" stroke="#07482a" stroke-width="1.5" />
+                        <text x="9" y="12" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ffffff">$</text>
+                        <rect x="12" y="14" width="8" height="6" rx="1" fill="url(#calcGradient)" />
+                        <circle cx="14" cy="15.5" r="0.7" fill="#096537" />
+                        <circle cx="16" cy="15.5" r="0.7" fill="#096537" />
+                        <circle cx="14" cy="17.5" r="0.7" fill="#096537" />
+                        <circle cx="16" cy="17.5" r="0.7" fill="#096537" />
+                        <ellipse cx="12" cy="22" rx="8" ry="2" fill="url(#shadowGradient)" />
+                    </svg>
+
                         <h3 class="service-title">Tax Solutions</h3>
                         <p>
                         Effortlessly manage tax filings and advisory with our end-to-end services.

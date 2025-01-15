@@ -432,6 +432,7 @@ footer .features li {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 10px;}
+    
 /* Whasatpp Icons  Design Start */
 .phone-chat {
     width: 55px;
@@ -500,4 +501,5 @@ footer .features li {
 100% {
         transform: scale(1);
         opacity: 0;}
-/* Whasatpp Icons  Design End */}
+}
+/* Whasatpp Icons  Design End */
