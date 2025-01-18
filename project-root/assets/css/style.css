@@ -12,19 +12,56 @@ body {
     display: flex;
     height: 100vh;
 }
-
-/* Sidebar */
-.sidebar {
-    width: 250px;
-    background: #343a40;
-    color: #fff;
+.dashboard {
     padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.sidebar h2 {
-    text-align: center;
+.stats-container {
+    display: flex;
+    gap: 20px;
     margin-bottom: 20px;
+}
+
+.stat-box {
+    background: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stat-box h3 {
+    margin: 0 0 10px 0;
+}
+
+.stat-box p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #343a40;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    transition: width 0.3s;
+}
+
+.sidebar.collapsed {
+    width: 70px;
 }
 
 .sidebar ul {
@@ -33,7 +70,7 @@ body {
 }
 
 .sidebar ul li {
-    margin: 15px 0;
+    padding: 15px 20px;
 }
 
 .sidebar ul li a {
@@ -47,8 +84,32 @@ body {
     margin-right: 10px;
 }
 
-.sidebar ul li a:hover {
-    color: #007bff;
+.toggle-btn {
+    position: fixed;
+    top: 15px;
+    left: 250px;
+    font-size: 20px;
+    color: #00d9ff;
+    cursor: pointer;
+    z-index: 1000;
+    transition: left 0.3s;
+}
+
+.collapsed + .toggle-btn {
+    left: 80px;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    transition: margin-left 0.3s;
+}
+
+.content.collapsed {
+    margin-left: 70px;
+}
+.sidebar.collapsed + .toggle-btn {
+    left: 70px;
 }
 
 /* Main Content */
@@ -201,4 +262,49 @@ footer p {
 .success-message {
     color: green;
     margin-bottom: 15px;
+}
+
+
+
+.confirmation-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.confirmation-popup button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.confirm-btn {
+    background: #dc3545;
+    color: white;
+}
+
+.cancel-btn {
+    background: #007bff;
+    color: white;
+}
+.action-btn {
+    padding: 5px 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.action-btn.delete {
+    background: #dc3545;
 }
