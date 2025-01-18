@@ -304,3 +304,14 @@ footer p {
 .action-btn.delete {
     background: #dc3545;
 }
+.add-page-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.add-page-btn:hover {
+    background-color: #0056b3;
+}

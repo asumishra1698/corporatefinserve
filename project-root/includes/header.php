@@ -19,7 +19,9 @@ include(__DIR__ . '/../config/db.php');
             <ul>
                 <li><a href="<?php echo $base_url; ?>"><i class="fas fa-address-book"></i> Dashboard</a></li>
                 <li><a href="<?php echo $base_url; ?>modules/users/users.php"><i class="fas fa-users"></i> Users</a></li>
-                <li><a href="<?php echo $base_url; ?>modules/pages/pages.php"><i class="fas fa-file-alt"></i> All Pages</a></li>
+                <li><a href="<?php echo $base_url; ?>modules/pages/pages.php"><i class="fas fa-file-alt"></i> All Pages</a>
+                
+            </li>
                 <li><a href="<?php echo $base_url; ?>modules/posts/posts.php"><i class="fas fa-edit"></i> All Posts</a></li>
                 <li><a href="<?php echo $base_url; ?>modules/contacts/contacts.php"><i class="fas fa-address-book"></i> Contact</a></li>
             </ul>            
