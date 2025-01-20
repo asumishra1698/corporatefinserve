@@ -1,4 +1,3 @@
-
 <?php
 include('../../config/db.php');
 include('../../includes/header.php');
@@ -29,36 +28,36 @@ if (isset($_GET['logout'])) {
     exit;
 }
 ?>
-    
+
 <main class="content">
-            <header>
-                <h1>Registered Users</h1>
-                <a href="<?php echo $base_url; ?>modules/logout.php" class="logout">Logout</a>
-            </header>
-            <section>                          
-                <table>
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Email</th>
-                            <th>Registration Date</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    <?php while ($row = $result->fetch_assoc()): ?>
-                <tr>
-                    <td><?php echo $row['id']; ?></td>
-                    <td><?php echo $row['email']; ?></td>
-                    <td><?php echo $row['created_at']; ?></td>
-                    
-                    <td><button class="action-btn delete" onclick="confirmDelete(<?php echo $row['id']; ?>)">Delete</button>                    
+    <header>
+        <h1>Registered Users</h1>
+        <a href="<?php echo $base_url; ?>modules/logout.php" class="logout">Logout</a>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Email</th>
+                <th>Registration Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php while ($row = $result->fetch_assoc()): ?>
+            <tr>
+                <td><?php echo $row['id']; ?></td>
+                <td><?php echo $row['email']; ?></td>
+                <td><?php echo $row['created_at']; ?></td>
+
+                <td><button class="action-btn delete" onclick="confirmDelete(<?php echo $row['id']; ?>)">Delete</button>
                 </td>
-                </tr>
+            </tr>
             <?php endwhile; ?>
-                    </tbody>
-                </table>
-            </section>
-        </main>
+        </tbody>
+    </table>
+
+</main>
 
 <?php include('../../includes/footer.php'); ?>
