@@ -18,34 +18,33 @@ $base_url = "http://localhost/corporatefinserve/project-root/";
 include(__DIR__ . '/includes/header.php'); 
 ?>
 
-        <main class="content">
-            <header>
-                <h1>Welcome to the Admin Dashboard</h1>
-                <a href="<?php echo $base_url; ?>modules/logout.php" class="logout">Logout</a>
-            </header>
-            <section>
-            <div class="stats-container">
-        <div class="stat-box">
-            <h3>Total Pages</h3>
-            <span id="totalPages">Loading...</span>
+<main class="content">
+    <header>
+        <h1>Welcome to the Admin Dashboard</h1>
+        <a href="<?php echo $base_url; ?>modules/logout.php" class="logout">Logout</a>
+    </header>
+    <section>
+        <div class="stats-container">
+            <div class="stat-box">
+                <h3>Total Pages</h3>
+                <span id="totalPages">Loading...</span>
+            </div>
+            <div class="stat-box">
+                <h3>Total Users</h3>
+                <span id="totalUsers">Loading...</span>
+            </div>
+            <div class="stat-box">
+                <h3>Total Posts</h3>
+                <span id="totalPosts">Loading...</span>
+            </div>
+            <div class="stat-box">
+                <h3>Total Contacts</h3>
+                <span id="totalContacts">Loading...</span>
+            </div>
         </div>
-        <div class="stat-box">
-            <h3>Total Users</h3>
-            <span id="totalUsers">Loading...</span>
-        </div>
-        <div class="stat-box">
-            <h3>Total Posts</h3>
-            <span id="totalPosts">Loading...</span>
-        </div>
-        <div class="stat-box">
-            <h3>Total Contacts</h3>
-            <span id="totalContacts">Loading...</span>
-        </div>
-    </div>
-
-    <script>
+        <script>
         // Fetch and display stats from stats.php
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             fetch('modules/stats.php') // Adjust the path if needed
                 .then(response => {
                     if (!response.ok) {
@@ -65,9 +64,7 @@ include(__DIR__ . '/includes/header.php');
                     alert('Failed to load statistics. Please try again later.');
                 });
         });
-    </script>
-            </section>
-        </main> 
-           
-        
-        <?php include(__DIR__ . '/includes/footer.php'); ?>
+        </script>
+    </section>
+</main>
+<?php include(__DIR__ . '/includes/footer.php'); ?>

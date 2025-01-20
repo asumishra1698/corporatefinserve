@@ -46,19 +46,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
     <div class="form-container">
         <h2>Admin Registration</h2>
         <?php if (!empty($error_message)): ?>
-            <p class="error-message"><?php echo $error_message; ?></p>
+        <p class="error-message"><?php echo $error_message; ?></p>
         <?php elseif (!empty($success_message)): ?>
-            <p class="success-message"><?php echo $success_message; ?></p>
+        <p class="success-message"><?php echo $success_message; ?></p>
         <?php endif; ?>
         <form method="POST" action="">
             <input type="email" name="email" placeholder="Email" required>
