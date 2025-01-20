@@ -26,7 +26,7 @@ body {
 }
 
 .stat-box {
-    background: #007bff;
+    background: #096537;
     color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -47,7 +47,7 @@ body {
 .sidebar {
     width: 250px;
     height: 100vh;
-    background: #343a40;
+    background: #001d37;
     color: #fff;
     position: fixed;
     top: 0;
@@ -85,7 +85,7 @@ body {
     top: 15px;
     left: 250px;
     font-size: 20px;
-    color: #00d9ff;
+    color: #096537;
     cursor: pointer;
     z-index: 1000;
     transition: left 0.3s;
@@ -155,7 +155,7 @@ table th, table td {
 }
 
 table th {
-    background: #007bff;
+    background: #096537;
     color: #fff;
 }
 
@@ -188,12 +188,12 @@ form input, form button {
 }
 
 form input:focus, form button:focus {
-    border-color: #007BFF;
+    border-color: #096537;
     outline: none;
 }
 
 form button {
-    background-color: #007BFF;
+    background-color: #096537;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -201,7 +201,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #0056b3;
+    background-color: #096537;
 }
 
 /* Footer */
@@ -240,14 +240,14 @@ footer p {
 }
 
 .form-container button {
-    background-color: #007BFF;
+    background-color: #096537;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 .form-container button:hover {
-    background-color: #0056b3;
+    background-color: #096537;
 }
 
 .error-message {
@@ -256,7 +256,7 @@ footer p {
 }
 
 .success-message {
-    color: green;
+    color: #096537;
     margin-bottom: 15px;
 }
 
@@ -289,13 +289,13 @@ footer p {
 }
 
 .cancel-btn {
-    background: #007bff;
+    background: #096537;
     color: white;
 }
 .action-btn {
     padding: 5px 10px;
     border: none;
-    background: #007bff;
+    background: #096537;
     color: white;
     cursor: pointer;
     border-radius: 3px;
@@ -306,12 +306,12 @@ footer p {
 }
 .add-page-btn {
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: #096537;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
 }
 .add-page-btn:hover {
-    background-color: #0056b3;
+    background-color: #096537;
 }

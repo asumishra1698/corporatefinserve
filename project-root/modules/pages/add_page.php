@@ -43,7 +43,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 }
             }
         }
-
         // Insert into the database
         if (empty($message)) {
             $stmt = $conn->prepare("INSERT INTO pages (title, page_url, featured_image, description) VALUES (?, ?, ?, ?)");
@@ -89,5 +88,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <button type="submit">Add Page</button>
     </form>
-
+</main>
     <?php include('../../includes/footer.php'); ?>

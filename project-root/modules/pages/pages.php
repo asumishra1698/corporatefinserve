@@ -25,10 +25,13 @@ if (isset($_GET['logout'])) {
 
 <main class="content">
     <header>
-        <h1>All Pages</h1>
-        <a href="add_page.php" class="add-page-btn">Add New Page</a>
+        <h1>All Pages</h1>        
         <a href="<?php echo $base_url; ?>modules/logout.php" class="logout">Logout</a>
     </header>
+    <div style="margin-bottom:20px">
+     <a href="add_page.php" class="add-page-btn">Add New Page</a>
+    </div>
+    
 
     <table>
         <thead>
