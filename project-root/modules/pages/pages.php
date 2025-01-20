@@ -11,7 +11,6 @@ if (!$pagesResult) {
     die('Error fetching pages: ' . $conn->error);
 }
 
-
 // Logout functionality
 if (isset($_GET['logout'])) {
     session_destroy();

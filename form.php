@@ -2,13 +2,16 @@
     <div class="register_form">
         <h3>Get Instant Quote Free</h3>
         <p class="text-primary">10.5k+ Happy Reviews</p>
-        <form action="mail.php" method="post" name="google-sheet" novalidate="">
+        <form action="mail.php" method="post" name="google-sheet" novalidate="" id="contactForm">
             <input name="service.id" type="hidden" value="266">
             <div class="row">
                 <div class="col-lg-12">
                     <input id="name" name="name" placeholder="Your Name" required="" type="text">
                     <input id="mobile" name="mobile" placeholder="Your Phone Number" required="" type="tel">
                     <input id="form_email" name="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" placeholder="Your Email Address" required="" type="email">
+                    <input id="city" name="city" placeholder="city" required="" type="text">
+                    <input id="type" name="type" placeholder="type" required="" type="text">
+                    <input id="messaage" name="message" placeholder="message" required="" type="text">
                 </div>
                 <div class="col-sm-12">
                     <div class="g-recaptcha" data-theme="light" style="margin-left: 18%;transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;" data-sitekey="6LeGMnokAAAAAOM4bmA6v5Rm70gX5eJJqzvTSzQW"></div>

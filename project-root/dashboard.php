@@ -37,8 +37,14 @@ include(__DIR__ . '/includes/header.php');
                     <h3>Total Posts</h3>
                     <p id="totalPosts">0</p>
                 </div>
-            </div>       
+                <div class="stat-box">
+                    <h3>Total contact</h3>
+                    <p id="totalContacts">0</p>
+                </div>
+            </div>   
+                
             </section>
-        </main>    
+        </main> 
+           
         
         <?php include(__DIR__ . '/includes/footer.php'); ?>

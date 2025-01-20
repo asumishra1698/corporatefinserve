@@ -16,38 +16,33 @@ if (!$conn) {
     exit;
 }
 
-// Fetch total pages
-$totalPagesQuery = "SELECT COUNT(*) AS total FROM pages";
-$totalPagesResult = $conn->query($totalPagesQuery);
-if (!$totalPagesResult) {
-    echo json_encode(['error' => 'Error fetching total pages: ' . $conn->error]);
-    exit;
+// Helper function to fetch totals
+function fetchTotal($conn, $query, $label) {
+    try {
+        $result = $conn->query($query);
+        if (!$result) {
+            throw new Exception("Error fetching $label: " . $conn->error);
+        }
+        $data = $result->fetch_assoc();
+        return $data['total'] ?? 0;
+    } catch (Exception $e) {
+        echo json_encode(['error' => $e->getMessage()]);
+        exit;
+    }
 }
-$totalPages = $totalPagesResult->fetch_assoc()['total'];
 
-// Fetch total users
-$totalUsersQuery = "SELECT COUNT(*) AS total FROM admins";
-$totalUsersResult = $conn->query($totalUsersQuery);
-if (!$totalUsersResult) {
-    echo json_encode(['error' => 'Error fetching total users: ' . $conn->error]);
-    exit;
-}
-$totalUsers = $totalUsersResult->fetch_assoc()['total'];
-
-// Fetch total posts
-$totalPostsQuery = "SELECT COUNT(*) AS total FROM posts";
-$totalPostsResult = $conn->query($totalPostsQuery);
-if (!$totalPostsResult) {
-    echo json_encode(['error' => 'Error fetching total posts: ' . $conn->error]);
-    exit;
-}
-$totalPosts = $totalPostsResult->fetch_assoc()['total'];
+// Fetch totals using helper function
+$totalPages = fetchTotal($conn, "SELECT COUNT(*) AS total FROM pages", "total pages");
+$totalUsers = fetchTotal($conn, "SELECT COUNT(*) AS total FROM admins", "total users");
+$totalPosts = fetchTotal($conn, "SELECT COUNT(*) AS total FROM posts", "total posts");
+$totalContacts = fetchTotal($conn, "SELECT COUNT(*) AS total FROM enquiries", "total contacts");
 
 // Return stats as a JSON response
 echo json_encode([
     'totalPages' => $totalPages,
     'totalUsers' => $totalUsers,
     'totalPosts' => $totalPosts,
+    'totalContacts' => $totalContacts,
 ]);
 exit;
 ?>
