@@ -82,10 +82,13 @@ body {
 
 .toggle-btn {
     position: fixed;
-    top: 15px;
+    bottom: 50px;
     left: 250px;
     font-size: 20px;
-    color: #096537;
+    color: #ffffff;
+    padding: 5px 10px 10px 5px;
+    background: #001d37;
+    border-radius: 0px 40px 40px 0px;
     cursor: pointer;
     z-index: 1000;
     transition: left 0.3s;
@@ -114,6 +117,8 @@ body {
     padding: 20px;
     background: #fff;
     overflow-y: auto;
+    overflow-y:scroll;
+  overflow-x:hidden;
 }
 
 .content header {
@@ -144,8 +149,10 @@ body {
 
 /* Table Styles */
 table {
-    width: 100%;
     border-collapse: collapse;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 table th, table td {
@@ -157,6 +164,7 @@ table th, table td {
 table th {
     background: #096537;
     color: #fff;
+    width: 300px;
 }
 
 table tr:nth-child(even) {

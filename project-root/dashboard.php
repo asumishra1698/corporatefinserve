@@ -1,20 +1,15 @@
 <?php
-// Start session and include database connection
-session_start();
+
 $base_url = "http://localhost/corporatefinserve/project-root/";
 include('./config/db.php');
-// Redirect to login if the user is not logged in
-if (!isset($_SESSION['admin_id'])) {
-    header('Location: modules/login.php');
-    exit;
-}
+include('./modules/session_check.php');
+
 // Logout functionality
 if (isset($_GET['logout'])) {
     session_destroy();
     header('Location: modules/login.php');
     exit;
 }
-$base_url = "http://localhost/corporatefinserve/project-root/";
 include(__DIR__ . '/includes/header.php'); 
 ?>
 

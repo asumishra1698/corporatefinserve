@@ -1,6 +1,7 @@
 <?php
 include('../../config/db.php');
 include('../../includes/header.php');
+include('../session_check.php');
 $base_url = "http://localhost/corporatefinserve/project-root/";
 
 // Fetch all enquiries
@@ -19,11 +20,11 @@ if (isset($_GET['logout'])) {
 ?>
 
 <main class="content">
-            <header>
-                <h1>All Contact Details</h1>
-                <a href="<?php echo $base_url; ?>modules/logout.php" class="logout">Logout</a>
-            </header>
-            <table>
+    <header>
+        <h1>All Contact Details</h1>
+        <a href="<?php echo $base_url; ?>modules/logout.php" class="logout">Logout</a>
+    </header>
+    <table>
         <thead>
             <tr>
                 <th>ID</th>
@@ -38,19 +39,19 @@ if (isset($_GET['logout'])) {
         </thead>
         <tbody>
             <?php while ($row = $result->fetch_assoc()): ?>
-                <tr>
-                    <td><?php echo $row['id']; ?></td>
-                    <td><?php echo htmlspecialchars($row['name']); ?></td>
-                    <td><?php echo htmlspecialchars($row['email']); ?></td>
-                    <td><?php echo htmlspecialchars($row['mobile']); ?></td>
-                    <td><?php echo htmlspecialchars($row['city']); ?></td>
-                    <td><?php echo htmlspecialchars($row['type']); ?></td>
-                    <td><?php echo htmlspecialchars($row['message']); ?></td>
-                    <td><?php echo $row['created_at']; ?></td>
-                </tr>
+            <tr>
+                <td><?php echo $row['id']; ?></td>
+                <td><?php echo htmlspecialchars($row['name']); ?></td>
+                <td><?php echo htmlspecialchars($row['email']); ?></td>
+                <td><?php echo htmlspecialchars($row['mobile']); ?></td>
+                <td><?php echo htmlspecialchars($row['city']); ?></td>
+                <td><?php echo htmlspecialchars($row['type']); ?></td>
+                <td><?php echo htmlspecialchars($row['message']); ?></td>
+                <td><?php echo $row['created_at']; ?></td>
+            </tr>
             <?php endwhile; ?>
         </tbody>
     </table>
-        </main>
+</main>
 
 <?php include('../../includes/footer.php'); ?>
