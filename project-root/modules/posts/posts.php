@@ -2,7 +2,7 @@
 include('../../config/db.php');
 include('../../includes/header.php');
 include('../session_check.php');
-$base_url = "http://localhost/corporatefinserve/project-root/";
+
 
 
 // Logout functionality

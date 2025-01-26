@@ -20,16 +20,21 @@ include(__DIR__ . '/../config/db.php');
             <h2>Admin Panel</h2>
             <ul>
                 <li><a href="<?php echo $base_url; ?>"><i class="fas fa-address-book"></i> Dashboard</a></li>
-                <li><a href="<?php echo $base_url; ?>modules/users/users.php"><i class="fas fa-users"></i> Users</a>
+                <li><a href="<?php echo $base_url; ?>modules/users/users.php"><i class="fas fa-users"></i> Admin Users</a>
                 </li>
                 <li><a href="<?php echo $base_url; ?>modules/pages/pages.php"><i class="fas fa-file-alt"></i> All
                         Pages</a>
-
-                </li>
-                <li><a href="<?php echo $base_url; ?>modules/posts/posts.php"><i class="fas fa-edit"></i> All Posts</a>
-                </li>
+                <li><a href="<?php echo $base_url; ?>modules/posts/manage-posts.php">Page Category</a></li>
+                <li> <a href="<?php echo $base_url; ?>modules/posts/posts.php"> <i class="fas fa-edit"></i> All Posts
+                    </a></li>
+                <li><a href="<?php echo $base_url; ?>modules/posts/manage-posts.php">Post Category</a></li>
                 <li><a href="<?php echo $base_url; ?>modules/contacts/contacts.php"><i class="fas fa-address-book"></i>
                         Contact</a></li>
+                <li><a href="<?php echo $base_url; ?>modules/contacts/contacts.php"><i class="fas fa-address-book"></i>
+                        Services</a></li>
+                <li><a href="<?php echo $base_url; ?>modules/contacts/contacts.php"><i class="fas fa-address-book"></i>
+                Service Category</a></li>
+                </a></li>
             </ul>
         </aside>
         <div class="toggle-btn" id="toggle-btn">☰</div>

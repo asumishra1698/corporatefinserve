@@ -2,8 +2,6 @@
 include('../../config/db.php');
 include('../../includes/header.php');
 include('../session_check.php');
-$base_url = "http://localhost/corporatefinserve/project-root/";
-
 
 // Handle DELETE request
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

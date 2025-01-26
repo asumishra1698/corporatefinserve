@@ -1,6 +1,4 @@
 <?php
-
-$base_url = "http://localhost/corporatefinserve/project-root/";
 include('./config/db.php');
 include('./modules/session_check.php');
 
@@ -60,6 +58,5 @@ include(__DIR__ . '/includes/header.php');
             });
     });
     </script>
-
 </main>
 <?php include(__DIR__ . '/includes/footer.php'); ?>

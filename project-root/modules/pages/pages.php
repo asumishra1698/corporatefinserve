@@ -2,8 +2,6 @@
 include('../../config/db.php');
 include('../../includes/header.php');
 include('../session_check.php');
-$base_url = "http://localhost/corporatefinserve/project-root/";
-
 
 // Handle POST request for delete action
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -111,55 +109,7 @@ if (isset($_GET['logout'])) {
                     <a href="edit_page.php?id=<?php echo $page['id']; ?>" class="action-btn edit">Edit</a>
                     <a href="#" class="action-btn delete"
                         onclick="confirmDeletePage(<?php echo $page['id']; ?>)">Delete</a>
-                </td>
-                <td>
-                    <a href="preview_page.php?id=<?php echo $page['id']; ?>" class="action-btn view">Preview</a>
-                    <a href="edit_page.php?id=<?php echo $page['id']; ?>" class="action-btn edit">Edit</a>
-                    <a href="#" class="action-btn delete"
-                        onclick="confirmDeletePage(<?php echo $page['id']; ?>)">Delete</a>
-                </td>
-                <td>
-                    <a href="preview_page.php?id=<?php echo $page['id']; ?>" class="action-btn view">Preview</a>
-                    <a href="edit_page.php?id=<?php echo $page['id']; ?>" class="action-btn edit">Edit</a>
-                    <a href="#" class="action-btn delete"
-                        onclick="confirmDeletePage(<?php echo $page['id']; ?>)">Delete</a>
-                </td>
-                <td>
-                    <a href="preview_page.php?id=<?php echo $page['id']; ?>" class="action-btn view">Preview</a>
-                    <a href="edit_page.php?id=<?php echo $page['id']; ?>" class="action-btn edit">Edit</a>
-                    <a href="#" class="action-btn delete"
-                        onclick="confirmDeletePage(<?php echo $page['id']; ?>)">Delete</a>
-                </td>
-                <td>
-                    <a href="preview_page.php?id=<?php echo $page['id']; ?>" class="action-btn view">Preview</a>
-                    <a href="edit_page.php?id=<?php echo $page['id']; ?>" class="action-btn edit">Edit</a>
-                    <a href="#" class="action-btn delete"
-                        onclick="confirmDeletePage(<?php echo $page['id']; ?>)">Delete</a>
-                </td>
-                <td>
-                    <a href="preview_page.php?id=<?php echo $page['id']; ?>" class="action-btn view">Preview</a>
-                    <a href="edit_page.php?id=<?php echo $page['id']; ?>" class="action-btn edit">Edit</a>
-                    <a href="#" class="action-btn delete"
-                        onclick="confirmDeletePage(<?php echo $page['id']; ?>)">Delete</a>
-                </td>
-                <td>
-                    <a href="preview_page.php?id=<?php echo $page['id']; ?>" class="action-btn view">Preview</a>
-                    <a href="edit_page.php?id=<?php echo $page['id']; ?>" class="action-btn edit">Edit</a>
-                    <a href="#" class="action-btn delete"
-                        onclick="confirmDeletePage(<?php echo $page['id']; ?>)">Delete</a>
-                </td>
-                <td>
-                    <a href="preview_page.php?id=<?php echo $page['id']; ?>" class="action-btn view">Preview</a>
-                    <a href="edit_page.php?id=<?php echo $page['id']; ?>" class="action-btn edit">Edit</a>
-                    <a href="#" class="action-btn delete"
-                        onclick="confirmDeletePage(<?php echo $page['id']; ?>)">Delete</a>
-                </td><td>
-                    <a href="preview_page.php?id=<?php echo $page['id']; ?>" class="action-btn view">Preview</a>
-                    <a href="edit_page.php?id=<?php echo $page['id']; ?>" class="action-btn edit">Edit</a>
-                    <a href="#" class="action-btn delete"
-                        onclick="confirmDeletePage(<?php echo $page['id']; ?>)">Delete</a>
-                </td>
-
+                </td>                
             </tr>
             <?php endwhile; ?>
         </tbody>

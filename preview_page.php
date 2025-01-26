@@ -1,8 +1,6 @@
 <?php
-include('../../config/db.php');
-include('../../includes/header.php');
-include('../session_check.php');
-
+include('project-root/config/db.php');
+include('header.php');
 // Check if an ID is provided in the URL
 if (isset($_GET['id'])) {
     $page_id = intval($_GET['id']); // Sanitize input
@@ -47,4 +45,4 @@ if (isset($_GET['id'])) {
     </article>
 </main>
 
-<?php include('../../includes/footer.php'); ?>
+<?php include('footer.php'); ?>
